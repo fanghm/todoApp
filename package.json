@@ -1,7 +1,8 @@
 {
   "name": "todoApp",
   "version": "0.0.1",
-  "descrition": "Boilerplate code for a MEAN app with RESTful API. Type 'set DEBUG=todoApp & node ./bin/www' to run on Windows"
+  "description": "Boilerplate code for a MEAN app with RESTful API. Type 'set DEBUG=todoApp & node ./bin/www' to run on Windows",
+  "repository": "https://github.com/fanghm/todoApp.git",
   "scripts": {
     "start": "node ./bin/www"
   },
@@ -9,6 +10,7 @@
     "body-parser": "~1.13.2",
     "cookie-parser": "~1.3.5",
     "debug": "~2.2.0",
+    "ejs": "~2.3.3",
     "express": "~4.13.1",
     "jade": "~1.11.0",
     "mongoose": "^4.2.5",
